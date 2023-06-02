@@ -2,6 +2,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .container{
     display: grid;
@@ -20,3 +21,10 @@ span{
     display: flex;
     align-items: center;
 }
+
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px #000;
+}
+
