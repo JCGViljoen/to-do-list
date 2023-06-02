@@ -1,32 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+  <title>Todo List</title>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>to<span>do</span>list</h1>
-        <br>
-        <div class="wrapper">
-            <button id="sort">Sort</button>
-        <br>
-        <input type="text" name="" id="input" placeholder="What we doing?">
-        <br>
-        <button id="add">Add</button>
-        </div>
-        
-        <ul class="output">
-            <li id="display"></li>
-        </ul>
+  <h1>To<span>do</span> List</h1>
+  <div id="todo-container">
+    <input type="text" id="todo-input" placeholder="What we doing?">
+    <button id="add-btn">Add</button>
+    <button id="sort-btn">Sort</button>
+    <ul id="todo-list"></ul>
+  </div>
 
-    </div>
-    
-
-    
-    <script src="./script/code.js"></script>
+  <script src="./script/code.js"></script>
 </body>
 </html>
